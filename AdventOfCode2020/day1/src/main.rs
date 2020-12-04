@@ -27,7 +27,7 @@ fn return_data_vec(filename: impl AsRef<Path>) -> Vec<u32> {
         };
         data.push(int);
     }
-    return data;
+    data
 }
 
 fn one(data: &Vec<u32>) -> u32{
