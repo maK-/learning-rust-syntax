@@ -9,8 +9,8 @@ fn main(){
 
     let data = return_data_vec(filename);
     
-    println!("{:?}", traverse(&data, [(3,1)].to_vec()));
-    println!("{:?}", traverse(&data, [(1,1),(3,1),(5,1),(7,1),(1,2)].to_vec()));
+    println!("Part 1: {:?}", traverse(&data, [(3,1)].to_vec()));
+    println!("Part 2: {:?}", traverse(&data, [(1,1),(3,1),(5,1),(7,1),(1,2)].to_vec()));
 }
 
 fn return_data_vec(filename: impl AsRef<Path>) -> Vec<String>{
