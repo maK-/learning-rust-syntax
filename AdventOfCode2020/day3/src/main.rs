@@ -63,7 +63,7 @@ fn traverse(forest: &Vec<String>, directions: Vec<(usize, usize)>) -> i64{
         tree_count = 0;
         curr_x = 0;
         curr_y = 0;
-        println!("Total: {:?}\n", total_value);
+        println!("Total: {:?}", total_value);
     }
     total_value
 }
